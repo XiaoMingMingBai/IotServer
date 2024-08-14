@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    "fmt",
+    {
+      "name": "soci",
+      "features": [
+        "mysql"
+      ]
+    }
+  ]
+}
