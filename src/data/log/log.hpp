@@ -34,7 +34,7 @@ namespace LOG
         short switchWriteToDatabase(void);
         Log(void);
         Log(const char *fileName);
-        Log(std::string database, std::string user, std::string password);
+        Log(const std::string &database, const std::string &user, const std::string &password);
         ~Log(void);
     };
 

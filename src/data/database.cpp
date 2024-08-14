@@ -3,7 +3,7 @@
 #include <soci/mysql/soci-mysql.h>
 #include <iostream>
 
-Database::Database(std::string database, std::string user, std::string password)
+Database::Database(const std::string &database, const std::string &user, const std::string &password)
 {
     try
     {

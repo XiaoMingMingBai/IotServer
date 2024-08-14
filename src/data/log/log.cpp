@@ -213,7 +213,7 @@ LOG::Log::Log(const char *file = nullptr) : fileName(file ? file : "log/log.txt"
     switchWriteToFile();
 }
 
-LOG::Log::Log(std::string database, std::string user, std::string password) : fileName("log/log.txt"), databaseName(database.c_str()), databaseUser(user.c_str()), databasePassword(password.c_str())
+LOG::Log::Log(const std::string &database, const std::string &user, const std::string &password) : fileName("log/log.txt"), databaseName(database.c_str()), databaseUser(user.c_str()), databasePassword(password.c_str())
 {
     try
     {

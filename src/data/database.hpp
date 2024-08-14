@@ -8,7 +8,7 @@ class Database
 private:
     /* data */
 public:
-    Database(std::string database, std::string user, std::string password);
+    Database(const std::string &database, const std::string &user, const std::string &password);
     ~Database();
 };
 
